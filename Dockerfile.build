@@ -109,6 +109,6 @@ RUN set -ex; \
 # 		CROSS_COMPILE='s390x-linux-gnu-' \
 # 		ARCH_TEST='s390x'
 
-RUN find \( -name 'hello' -or -name 'hello.txt' \) -exec file '{}' 
+RUN find \( -name 'hello' -or -name 'hello.txt' \) -exec file '{}' +
 
 CMD ["./amd64/orchid-hello-world/hello"]
