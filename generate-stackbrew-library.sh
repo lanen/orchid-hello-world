@@ -1,7 +1,7 @@
 #!/bin/bash
 set -eu
 
-image="${1:-hello-world}"
+image="${1:-orchid-hello-world}"
 
 self="$(basename "$BASH_SOURCE")"
 cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
