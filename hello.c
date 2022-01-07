@@ -2,7 +2,7 @@
 #include <unistd.h>
 
 #ifndef DOCKER_IMAGE
-	#define DOCKER_IMAGE "hello-world"
+	#define DOCKER_IMAGE "orchid-hello-world"
 #endif
 
 #ifndef DOCKER_GREETING
