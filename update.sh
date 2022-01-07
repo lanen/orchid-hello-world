@@ -5,7 +5,7 @@ cd "$(dirname "$(readlink -f "$BASH_SOURCE")")"
 
 set -x
 
-docker build -f Dockerfile.build -t orchid-orchid-hello-world:build .
+docker build -f Dockerfile.build -t orchid-hello-world:build .
 
 find */ \( -name hello -or -name hello.txt \) -delete
 docker run --rm orchid-hello-world:build sh -c 'find \( -name hello -or -name hello.txt \) -print0 | xargs -0 tar --create' | tar --extract --verbose
