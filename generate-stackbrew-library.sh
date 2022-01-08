@@ -33,7 +33,7 @@ cat <<-EOH
 # this file is generated via https://github.com/lanen/orchid-hello-world/blob/$generateCommit/$self
 
 Maintainers: evan <cppmain@gmail.com> (@lanen)
-GitRepo: https://github.com/lanen/orchid-hello-world.git
+GitRepo: git@github.com:lanen/orchid-hello-world.git
 GitCommit: $generateCommit
 EOH
 
